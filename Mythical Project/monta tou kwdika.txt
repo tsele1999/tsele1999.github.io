@@ -1,0 +1,27 @@
+
+
+
+<div class="portfolio-items-wrapper2">
+
+        <div class="portfolio-item-wrapper2">
+          <div class="portfolio-img-background2" style="background-image:url(images/black.jpg)"></div>
+
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/asprogreecelogo001.png" alt="">
+            </div>
+
+            <div class="subtitle">This is a story about Pandora's box.</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper2">
+          <div class="portfolio-img-background2" style="background-image:url(images/purple.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/asprosamurailogo.png" alt="">
+            </div>
+
+            <div class="subtitle">This is a story about a deadly samurai.</div>
+          </div>
+        </div>

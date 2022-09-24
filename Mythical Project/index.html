@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>Srories about Mythology</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper active-nav-link">
+          <a href="index.html">Home</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="about.html">About</a>
+        </div>
+      
+
+        <div class="nav-link-wrapper">
+          <a href="skandinavia.html">game</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="help-page.html">Help</a>
+        </div>
+
+        
+
+        
+
+      </div>
+
+      <div class="right-side">
+        <div class="brand">
+          TSELEPONIS ARGYRIS
+        </div>
+      </div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="portfolio-items-wrapper">
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/FrameIconHelp.png)"></div>
+
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <a href="help-page.html">
+                <img src="images/logos/testframelogoHelp.png" alt="">
+              </a>
+            </div>
+
+            <div class="subtitle">Instructions</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/FrameIconGame.png)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <a href="skandinavia.html">  
+                <img src="images/logos/testframelogoGame.png" alt="">
+              </a>
+            </div>
+
+            <div class="subtitle">Click here to play</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/FrameIconAbout.png)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <a href="about.html">
+                <img src="images/logos/testframelogoAbout.png" alt="">
+              </a>
+            </div>
+
+            <div class="subtitle">Information about me</div>
+          </div>
+        </div>
+
+        
+
+      </div>
+      
+      
+
+        
+
+        
+
+      </div>
+      
+
+    </div>
+  </div>
+
+</body>
+
+<script>
+  const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+
+  portfolioItems.forEach(portfolioItem => {
+    portfolioItem.addEventListener('mouseover', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.add('image-blur');
+    });
+
+    portfolioItem.addEventListener('mouseout', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.remove('image-blur');
+    });
+  });
+
+</script>
+
+
+
+
+<script>
+
+  const portfolioItems2 = document.querySelectorAll('.portfolio-item-wrapper2')
+
+  portfolioItems2.forEach(portfolioItem2 => {
+    portfolioItem2.addEventListener('mouseover', () => {
+      console.log(portfolioItem2.childNodes[1].classList);
+      portfolioItem2.childNodes[1].classList.add('image-blur');
+    })
+
+    portfolioItem2.addEventListener('mouseout', () => {
+      console.log(portfolioItem2.childNodes[1].classList);
+      portfolioItem2.childNodes[1].classList.remove('image-blur');
+    })
+
+  })
+
+</script>
+
+
+
+
+
+</html>
